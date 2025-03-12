@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lap6</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+           <a href="#" class="hidden md:inline-block bg-[#4932af] text-white px-4 py-2 rounded-md hover:bg-[#3b278e]">
+            تسجيل الدخول
+           </a>
+    
+            <!-- ✅ قائمة التنقل -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-[#4932af]">الأعتمادات</a>
+                <a href="#" class="text-gray-700 hover:text-[#4932af]">الشراكات</a>
+                <a href="#" class="text-gray-700 hover:text-[#4932af]">مركز الاختبارات </a>
+                <a href="#" class="text-gray-700 hover:text-[#4932af]">الأكاديميات التابعة</a>
+                <a href="#" class="text-gray-700 hover:text-[#4932af]"> حول الاكاديمية</a>
+                <a href="#" class="text-gray-700 hover:text-[#4932af]">الرئيسية</a>
+            </nav>
+     <a href="#">
+                <img src="https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-noname.png" alt="شعار أكاديمية طويق" class="h-10">
+            </a>
+    
+            <!-- ✅ أيقونة القائمة للجوال -->
+            <button class="md:hidden text-gray-700">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <section class="flex flex-col gap-6 max-w-[880px] ml-auto h-full w-full px-4 sm:px-0">
+        <div class="flex md:flex-row flex-col md:h-[480px] h-full md:w-full gap-6 md:min-h-[30rem]">
+            
+            <!-- الحاوية الرئيسية -->
+            <div class="relative flex flex-col justify-between rounded-3xl overflow-hidden p-6 md:p-8 bg-[#E7DDFF] w-full md:h-full h-[23rem]" id="theme-container">
+                
+                <!-- الصورة الجانبية -->
+                <img id="theme-image" 
+                    class="absolute object-contain w-10/12 md:w-9/12 lg:w-8/12 h-auto -bottom-2 -left-2 md:-bottom-6 md:-left-8 lg:-bottom-8 lg:-left-10 z-10" 
+                    src="https://tuwaiq.edu.sa/img/Tuwaiq_mounten.png" 
+                    alt="Tuwaiq Mount Image">
+                
+
+                    <div class="w-auto h-auto text-right">
+                    <div class="w-full mb-4">
+                        <h1 class="text-2xl md:text-5xl lg:text-3xl mb-2 text-[#4F29B7]">
+                            تعلم تقنيات المستقبل
+                        </h1>
+                        <h2 class="text-xl md:text-4xl lg:text-3xl text-[#4F29B7]">
+                            في مكــــانٍ واحــــــد
+                        </h2>
+                    </div>
+            
+
+                    <p class="text-sm md:text-base text-[#5C5C5C] lg:mb-2 mb-4">
+                        معسكرات وبرامج احترافية بالشراكة مع كبرى الجهات العالمية؛
+                        لتطوير مهاراتك في مجالات التقنيات الحديثة، بمنهجيّة تعلُّم قائمة
+                        على التطبيقات العملية، ضمن بيئة تعليمية محفزة وتنافسية.
+                    </p>
+            
+
+                    <button onclick="window.location.href='/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&amp;type=NORMAL'"
+                        class="flex gap-2 items-center z-[999999] py-2 px-12 text-3xl text-[#4F29B7] bg-white border-2 border-[#4F29B7] rounded-xl shadow-[5px_5px_#4F29B7] hover:shadow-none duration-200">
+                        ابدأ
+                        <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                            <path d="M8 12.5H20M20 12.5L15 7.5M20 12.5L15 17.5" stroke="#4F29B7" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main class="container mx-auto px-6 py-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl">
+                <img src="https://images.pexels.com/photos/9783812/pexels-photo-9783812.jpeg" alt="البرمجة" class="w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-xl font-semibold text-blue-600">البرمجة</h3>
+                    <p class="text-gray-600 mt-2">تعلم البرمجة من الصفر حتى الاحتراف في مختلف المجالات.</p>
+                    <a href="#" class="text-[#4932af] mt-4 inline-block">اكتشف المزيد →</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl">
+                <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="الدرونز" class="w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-xl font-semibold text-green-600">الدرونز</h3>
+                    <p class="text-gray-600 mt-2">تعلم كيفية برمجة وتشغيل الطائرات بدون طيار.</p>
+                    <a href="#" class="text-[#4932af] mt-4 inline-block">اكتشف المزيد →</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl">
+                <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600" alt="الذكاء الاصطناعي" class="w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-xl font-semibold text-purple-600">الذكاء الاصطناعي</h3>
+                    <p class="text-gray-600 mt-2">طور مهاراتك في الذكاء الاصطناعي وتعلم بناء النماذج الذكية.</p>
+                    <a href="#" class="text-[#4932af] mt-4 inline-block">اكتشف المزيد →</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transition hover:shadow-xl">
+                <img src="https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=600" alt="الألعاب" class="w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-xl font-semibold text-red-600">تطوير الألعاب</h3>
+                    <p class="text-gray-600 mt-2">تعلم بناء الألعاب باستخدام المحركات الحديثة مثل Unity و Unreal.</p>
+                    <a href="#" class="text-[#4932af] mt-4 inline-block">اكتشف المزيد →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <section class="bg-teal-200 p-8 rounded-lg shadow-lg flex items-center w-full max-w-full mb-10">
+        <!-- صورة البريد -->
+        <div class="w-1/2 flex justify-center relative">
+            <img src="https://tuwaiq.edu.sa/img/ART/Asset%209.svg" alt="صندوق البريد" class="w-56">
+            <div class="absolute top-0 left-6 transform rotate-12">
+            </div>
+        </div>
+        
+        <!-- نموذج الاشتراك -->
+        <div class="w-1/2 text-right">
+            <h2 class="text-2xl font-bold text-purple-700 mb-4">اشترك في النشرة البريدية</h2>
+            <form class="space-y-3">
+                <div class="flex space-x-2">
+                    <input type="text" placeholder="الاسم الأول" class="w-1/2 p-3 border border-gray-300 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    <input type="text" placeholder="الاسم الأخير" class="w-1/2 p-3 border border-gray-300 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                </div>
+                <input type="email" placeholder="you@email.com" class="w-full p-3 border border-gray-300 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                <button class="w-full bg-purple-700 text-white py-3 rounded-lg hover:bg-purple-800 transition duration-300">اشترك الآن</button>
+            </form>
+        </div>
+    </section>
+       
+    <div class="w-full p-4 py-6 mx-auto text-center lg:py-8 sm:text-start bg-[#E7DDFF]">
+        <div class="md:flex md:justify-between rtl">
+            
+            <div class="mb-6 md:mb-0">
+                <a class="flex items-center justify-center space-x-3 sm:justify-normal rtl:space-x-reverse">
+                    <img src="https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-h.png" class="h-20" alt="Tuwaiq">
+                </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6">
+                <div>
+                    <ul class="text-[#4F29B7] font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline"> شارك كمدرب</a>
+                        </li>
+                        <li>
+                            <a class="hover:underline" href="#">حول الأكاديمية</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-[#4F29B7] font-medium">
+                        <li class="mb-4">
+                            <a class="hover:underline " href="#"> سياسة الخصوصية</a>
+                        </li>
+                        <li>
+                            <a class="hover:underline" href="#"> الشروط والأحكام</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- إضافة الفراغ بين الفقرات -->
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+        <div class="flex flex-col-reverse items-center md:flex-row md:justify-between mt-6">
+            <span class="text-sm mt-4 md:mt-0 text-[#4F29B7] sm:text-center">© 2024
+                <a href="#" class="hover:underline">أكاديمية طويق</a>.
+                جميع الحقوق محفوظة.
+            </span>
+    
+            <div class="flex mt-4 sm:justify-center sm:mt-0">
+                <a href="#" class="text-white">
+                    <svg class="w-11 h-9 bg-[#4f29b7] hover:bg-[#8869dd] rounded-full p-2" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 448 512">
+                        <path fill="#ffffff" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path>
+                    </svg> <span class="sr-only">Linkedin</span>
+                </a>
+    
+                <a href="#" class="ml-3 text-white">
+                    <svg class="w-11 h-9 bg-[#4f29b7] hover:bg-[#8869dd] rounded-full p-2" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M437.3 32.5c-46.2 0-84.7 18.3-115.8 48.3l-31.5 31.5-9.7-5.7C254.3 19.8 166.3 0 79.9 0 35.8 0 0 35.8 0 79.9c0 87.5 19.8 174.3 55.3 243.6 12.2 18.2 22.5 25.3 44.7 35.2 18.8 7.8 41.2 7.8 57.7 17.1 5.3 3.1 8.1 4.1 13.2 5.8 20.9 8.4 44.7 11.6 68.5 19.9 6.6 2.2 12.7 3.6 19.1 6.8 2.6 2.5 5.5 3.1 8.8 3.3 4.3-.3 8.7-.5 13.1-.5 110.4 0 199.9-89.5 199.9-199.9 0-3.1-.2-6.1-.3-9.2 27.5-4.2 47.9-28.3 47.9-56.6 0-29.6-23.8-53.4-53.4-53.4z"></path>
+                    </svg> <span class="sr-only">Snapchat</span>
+                </a>
+                <a href="#" class="text-white ms-5">
+                    <svg class="w-11 h-9 bg-[#4f29b7] hover:bg-[#8869dd] rounded-full p-2" :class="{'bg-[#684F46] hover:bg-[#684F46]/80': theme === 'founding_day'}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path fill="#ffffff" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path>
+                    </svg>
+                    <span class="sr-only">Youtube</span>
+                </a>
+                <a href="#" class="text-white ms-5">
+                    <svg class="w-11 h-9 bg-[#4f29b7] hover:bg-[#8869dd] rounded-full p-2" :class="{'bg-[#684F46] hover:bg-[#684F46]/80': theme === 'founding_day'}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+                    </svg>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+    <div class="bg-[#4F29B7] py-6">
+        <!-- Content for the last section -->
+    </div>
+    
+    
+    
+</body>
+</html>
